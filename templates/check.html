@@ -17,6 +17,7 @@
     <div id="results">
       Your word: <strong>{{ word }}</strong>.
       {% if is_valid %}
+        Your score: <strong>{{ score }}</strong>.
         <span class="valid">Congrats, it's valid!</span>
       {% else %}
         <span class="invalid">Sorry, it's invalid...</span>
@@ -24,6 +25,7 @@
     </div>
     <div>
       <a href="/">New game</a>
+      <a href="/reset">Reset score</a>
     </div>
   </body>
 </html>

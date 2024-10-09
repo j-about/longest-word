@@ -21,5 +21,10 @@
       <input type="text" name="word" onkeyup="this.value = this.value.toUpperCase();">
       <button>Check!</button>
     </form>
+    {% if score > 0 %}
+    <div>
+      <a href="/reset">Reset score</a>
+    </div>
+    {% endif %}
   </body>
 </html>

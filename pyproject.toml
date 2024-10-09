@@ -11,6 +11,7 @@ pytest = "^8.3.3"
 pylint = "*"
 requests = "^2.32.3"
 flask = "^3.0.3"
+flask-session = "^0.8.0"
 
 
 [build-system]
